@@ -1,17 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
 body{
+    
     font-family: 'Poppins', sans-serif;
 }
+
 .topnav{
     background-color: burlywood;
     overflow: hidden;
-}
-.topnav{
     float:inline-start;
     color: #f2f2f2;
     text-align: center;
     padding: 15px 17px;
     text-decoration: none;
     font-size: 20px;
+    
+}
+.topnav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    margin-left: 20px;
 }
 h1{
     font-size: 40px;
@@ -26,6 +37,7 @@ span{
     width: 50%;
     padding-left: 10%;
     margin-bottom: 150px;
+    margin-top: 30px;
 }
 .chef{
     background-image: url("images/shapes/Frame\ 57.jpg");
@@ -79,7 +91,30 @@ span{
      padding-left: 30px;
      text-align: center;
      border-radius: 10px;
+     padding: 30px;
  }
  .one{
+
      width: 50%;
+ }
+ footer{
+     width:100%;
+    background-color: #000;
+}
+ .footer{
+     margin-top: 50px;
+     text-align: center;
+     padding:50px;
+     
+ }
+ 
+ .footer h2{
+     color:#12B3FB;
+ }
+ .footer span{
+     color:gray;
+ }
+ .footer p{
+     color:gray;
+     margin-top: 10px;
  }
