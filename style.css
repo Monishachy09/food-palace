@@ -1,0 +1,85 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.topnav{
+    background-color: burlywood;
+    overflow: hidden;
+}
+.topnav{
+    float:inline-start;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+}
+span{
+    color: blueviolet;
+}
+.hero_section{
+    display: flex;
+}   
+.half{
+    width: 50%;
+    padding-left: 10%;
+    margin-bottom: 150px;
+}
+.chef{
+    background-image: url("images/shapes/Frame\ 57.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding:50px;
+    display: flex;
+}
+.half img{
+    height:400px;
+    width:400px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(cyan ,blue);
+    padding: 10px; 
+    border: none;
+    border-radius: 15px;
+    color:white;
+}
+
+.recipes-card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.recepe_heading{
+    margin-top: 50px;
+    text-align: center;
+}
+ .card{
+        
+        width: 350px;
+        height:380px;
+        padding:10px;
+        border-radius: 5px;
+       box-shadow: 0px 2px 15px 2px #000000;
+ }
+ .card img{
+     border-radius: 10px;
+ }
+ .follow{
+     display: flex; 
+     box-shadow: 10px 10px 30px grey;
+     margin-left: 80px;
+     margin-right: 80px;
+     margin-top: 80px;
+     margin-bottom: 20px;
+     border-width: 10px;
+     padding-left: 30px;
+     text-align: center;
+     border-radius: 10px;
+ }
+ .one{
+     width: 50%;
+ }
